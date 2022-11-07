@@ -41,11 +41,11 @@
         func_layer {
 
             bindings = <
-&trans &kp F1    &kp F2    &kp F3   &kp F4    &kp F5                           &kp F6    &kp F7   &kp F8          &kp F9    &kp F10   &kp F11
-&trans &kp N1    &kp N2    &kp N3   &kp N4    &kp N5                           &kp N6    &kp N7   &kp N8          &kp N9    &kp N0    &kp F12
-&trans &kp EXCL  &kp AT    &kp HASH &kp DLLR  &kp PRCNT                        &kp CARET &kp AMPS &kp KP_MULTIPLY &kp LPAR  &kp RPAR  &trans
-&tog FUNC &kp MINUS &kp UNDER &kp LBKT &kp LBRC  &kp BSLH          &trans  &trans &kp PIPE  &kp RBRC &kp RBKT        &kp EQUAL &kp PLUS  &tog 2
-                 &trans    &trans   &trans    &ext_power EP_TOG &trans  &trans &trans    &trans   &trans          &trans
+&kp F1        &kp F2 &kp F3    &kp F4    &kp F5         &kp F6                           &kp F7  &kp F8         &kp F9    &kp F10  &kp F11  &kp F12
+&kp ESC       &kp X  &kp V     &kp L     &kp C          &kp W                            &kp K   &kp H          &kp G     &kp F    &kp Q    &kp BSPC
+&kp TAB  &kp U  &kp I     &kp A     &kp E          &kp O                            &kp S   &kp N          &kp R     &kp T    &kp D &kp Z
+&tog FUNC     &kp LBRC  &kp SEMI     &kp SQT     &kp P          &kp Y     &kp C_MUTE  &kp C_PP   &kp B   &kp M          &kp COMMA &kp DOT  &kp J &tog CONFIG
+                     &kp LCTRL  &kp LALT  &mo NEO3 &kp LSHIFT &mo NEO2  &kp RET  &kp SPACE &mt BSPC EQUAL &kp DEL  &kp RGUI
             >;
 
             sensor-bindings = <&inc_dec_kp C_VOL_DN C_VOL_UP &inc_dec_kp PG_DN PG_UP>;
@@ -54,8 +54,8 @@
         config_layer {
 
             bindings = <
-&trans &kp F1          &kp F2          &kp F3          &kp F4          &kp F5                         &kp F6             &kp F7     &kp F8   &kp F9     &kp F10   &kp F11
-&trans &bt BT_SEL 0    &bt BT_SEL 1    &bt BT_SEL 2    &bt BT_SEL 3    &bt BT_SEL 4                   &kp PG_UP          &kp END    &kp UP   &kp HOME   &kp INS   &kp F12
+&kp F1        &kp F2 &kp F3    &kp F4    &kp F5         &kp F6                           &kp F7  &kp F8         &kp F9    &kp F10  &kp F11  &kp F12
+&trans &bt BT_SEL 0    &bt BT_SEL 1    &bt BT_SEL 2    &bt BT_SEL 3    &bt BT_SEL 4                   &kp PG_UP          &kp END    &kp UP   &kp HOME   &kp INS   &trans
 &trans &rgb_ug RGB_TOG &rgb_ug RGB_EFR &rgb_ug RGB_EFF &rgb_ug RGB_BRD &rgb_ug RGB_BRI                &kp PG_DN          &kp LEFT   &kp DOWN &kp RIGHT  &kp DEL   &mt RCTRL CLCK
 &trans &bt BT_CLR      &rgb_ug RGB_HUD &rgb_ug RGB_HUI &rgb_ug RGB_SAD &rgb_ug RGB_SAI &trans  &trans &kp SLCK           &kp C_PREV &kp C_PP &kp C_NEXT &kp PSCRN &tog CONFIG
                        &trans          &trans          &trans          &trans          &trans  &trans &ext_power EP_TOG  &trans     &trans   &trans
@@ -66,11 +66,11 @@
         neo2_layer {
 
             bindings = <
-&trans &kp F1    &kp F2    &kp F3   &kp F4    &kp F5                           &kp F6    &kp F7   &kp F8          &kp F9    &kp F10   &kp F11
-&trans &kp N1    &kp N2    &kp N3   &kp N4    &kp N5                           &kp N6    &kp N7   &kp N8          &kp N9    &kp N0    &kp F12
-&trans &kp EXCL  &kp AT    &kp HASH &kp DLLR  &kp PRCNT                        &kp CARET &kp AMPS &kp KP_MULTIPLY &kp LPAR  &kp RPAR  &trans
-&tog NEO2 &kp MINUS &kp UNDER &kp LBKT &kp LBRC  &kp BSLH          &trans  &trans &kp PIPE  &kp RBRC &kp RBKT        &kp EQUAL &kp PLUS  &trans
-                 &trans    &trans   &trans    &ext_power EP_TOG &trans  &trans &trans    &trans   &trans          &trans
+&kp F1        &kp F2 &kp F3    &kp F4    &kp F5         &kp F6                           &kp F7  &kp F8         &kp F9    &kp F10  &kp F11  &kp F12
+&kp ESC       &kp X  &kp V     &kp L     &kp C          &kp W                            &kp K   &kp H          &kp G     &kp F    &kp Q    &kp BSPC
+&kp TAB  &kp U  &kp I     &kp A     &kp E          &kp O                            &kp S   &kp N          &kp R     &kp T    &kp D &kp Z
+&tog FUNC     &kp LBRC  &kp SEMI     &kp SQT     &kp P          &kp Y     &kp C_MUTE  &kp C_PP   &kp B   &kp M          &kp COMMA &kp DOT  &kp J &tog CONFIG
+                     &kp LCTRL  &kp LALT  &mo NEO3 &kp LSHIFT &mo NEO2  &kp RET  &kp SPACE &mt BSPC EQUAL &kp DEL  &kp RGUI
             >;
 
             sensor-bindings = <&inc_dec_kp C_VOL_DN C_VOL_UP &inc_dec_kp PG_DN PG_UP>;
@@ -79,11 +79,11 @@
         neo3_layer {
 
             bindings = <
-&trans &kp F1          &kp F2          &kp F3          &kp F4          &kp F5                         &kp F6             &kp F7     &kp F8   &kp F9     &kp F10   &kp F11
-&trans &bt BT_SEL 0    &bt BT_SEL 1    &bt BT_SEL 2    &bt BT_SEL 3    &bt BT_SEL 4                   &kp PG_UP          &kp END    &kp UP   &kp HOME   &kp INS   &kp F12
-&trans &rgb_ug RGB_TOG &rgb_ug RGB_EFR &rgb_ug RGB_EFF &rgb_ug RGB_BRD &rgb_ug RGB_BRI                &kp PG_DN          &kp LEFT   &kp DOWN &kp RIGHT  &kp DEL   &mt RCTRL CLCK
-&tog NEO3 &bt BT_CLR      &rgb_ug RGB_HUD &rgb_ug RGB_HUI &rgb_ug RGB_SAD &rgb_ug RGB_SAI &trans  &trans &kp SLCK           &kp C_PREV &kp C_PP &kp C_NEXT &kp PSCRN &tog CONFIG
-                       &trans          &trans          &trans          &trans          &trans  &trans &ext_power EP_TOG  &trans     &trans   &trans
+&kp F1        &kp F2 &kp F3    &kp F4    &kp F5         &kp F6                           &kp F7  &kp F8         &kp F9    &kp F10  &kp F11  &kp F12
+&kp ESC       &kp X  &kp V     &kp L     &kp C          &kp W                            &kp K   &kp H          &kp G     &kp F    &kp Q    &kp BSPC
+&kp TAB  &kp U  &kp I     &kp A     &kp E          &kp O                            &kp S   &kp N          &kp R     &kp T    &kp D &kp Z
+&tog FUNC     &kp LBRC  &kp SEMI     &kp SQT     &kp P          &kp Y     &kp C_MUTE  &kp C_PP   &kp B   &kp M          &kp COMMA &kp DOT  &kp J &tog CONFIG
+                     &kp LCTRL  &kp LALT  &mo NEO3 &kp LSHIFT &mo NEO2  &kp RET  &kp SPACE &mt BSPC EQUAL &kp DEL  &kp RGUI
             >;
 
             sensor-bindings = <&inc_dec_kp C_VOL_DN C_VOL_UP &inc_dec_kp PG_DN PG_UP>;
