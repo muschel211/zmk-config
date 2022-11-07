@@ -26,7 +26,7 @@
 &kp F1        &kp F2 &kp F3    &kp F4    &kp F5         &kp F6                           &kp F7  &kp F8         &kp F9    &kp F10  &kp F11  &kp F12
 &kp ESC       &kp X  &kp V     &kp L     &kp C          &kp W                            &kp K   &kp H          &kp G     &kp F    &kp Q    &kp MINUS
 &kp TAB  &kp U  &kp I     &kp A     &kp E          &kp O                            &kp S   &kp N          &kp R     &kp T    &kp D &kp Z
-&tog FUNC     &kp LBKT  &kp SEMI     &kp SQT     &kp P          &kp Y     &kp C_MUTE  &kp PSCRN   &kp B   &kp M          &commaminus &kp DOT  &kp J &tog CONFIG
+&tog FUNC     &kp LBKT  &kp SEMI     &kp SQT     &kp P          &kp Y     &kp C_MUTE  &kp PSCRN   &kp B   &kp M          &kp COMMA &kp DOT  &kp J &tog CONFIG
                      &kp LCTRL  &kp RALT  &mo NEO3 &kp LSHIFT &mo NEO2  &kp RET  &kp SPACE &kp BSPC &kp DEL  &kp RGUI
             >;
 
@@ -65,7 +65,7 @@
 &kp ESC       &kp X  &kp V     &kp L     &kp C          &kp W                            &kp K   &kp H          &kp G     &kp F    &kp Q    &kp BSPC
 &kp TAB  &kp U  &kp I     &kp A     &kp E          &kp O                            &kp S   &kp N          &kp R     &kp T    &kp D &kp Z
 &tog FUNC     &kp LBRC  &kp SEMI     &kp SQT     &kp P          &kp Y     &kp C_MUTE  &kp PSCRN   &kp B   &kp M          &kp COMMA &kp DOT  &kp J &tog CONFIG
-                     &kp LCTRL  &kp LALT  &mo NEO3 &kp  &mo NEO2  &kp RET  &kp SPACE &mt BSPC EQUAL &kp DEL  &kp RGUI
+                     &kp LCTRL  &kp LALT  &mo NEO3 &kp LSHIFT &mo NEO2  &kp RET  &kp SPACE &mt BSPC EQUAL &kp DEL  &kp RGUI
             >;
 
             sensor-bindings = <&inc_dec_kp C_VOL_DN C_VOL_UP &inc_dec_kp C_AC_ZOOM_IN C_AC_ZOOM_OUT>;
