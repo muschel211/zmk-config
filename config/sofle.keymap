@@ -91,7 +91,7 @@
             compatible = "zmk,behavior-mod-morph";
             label = "COMMA_MINUS";
             #binding-cells = <0>;
-            bindings = <&kp COMMA>, <&kp MINUS>;
+            bindings = <&kp COMMA>, <&kp KP_MINUS>;
             mods = <(MOD_LSFT|MOD_RSFT)>;
         };
     };
