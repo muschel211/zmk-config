@@ -30,7 +30,7 @@
                      &kp LCTRL  &kp RALT  &mo NEO3 &kp LSHIFT &mo NEO2  &kp RET  &kp SPACE &kp BSPC &kp DEL  &kp RGUI
             >;
 
-            sensor-bindings = <&inc_dec_kp C_VOL_DN C_VOL_UP &inc_dec_kp C_AC_ZOOM_IN C_AC_ZOOM_OUT>;
+            sensor-bindings = <&inc_dec_kp C_VOL_DN C_VOL_UP &inc_dec_kp LC(KP_PLUS) LC(KP_MINUS)>;
         };
 
         qwertz_layer {
@@ -43,7 +43,7 @@
                      &kp LCTRL  &kp LALT  &mo NEO3 &kp LSHIFT &mo NEO2  &kp RET  &kp SPACE &mt BSPC EQUAL &kp DEL  &kp RGUI
             >;
 
-            sensor-bindings = <&inc_dec_kp C_VOL_DN C_VOL_UP &inc_dec_kp C_AC_ZOOM_IN C_AC_ZOOM_OUT>;
+            sensor-bindings = <&inc_dec_kp C_VOL_DN C_VOL_UP &inc_dec_kp LC(KP_PLUS) LC(KP_MINUS)>;
         };
 
         config_layer {
@@ -56,7 +56,7 @@
                        &trans          &trans          &trans          &trans          &bootloader  &bootloader &ext_power EP_TOG  &trans     &trans   &trans
             >;
 
-            sensor-bindings = <&inc_dec_kp C_VOL_DN C_VOL_UP &inc_dec_kp C_AC_ZOOM_IN C_AC_ZOOM_OUT>;
+            sensor-bindings = <&inc_dec_kp C_VOL_DN C_VOL_UP &inc_dec_kp LC(KP_PLUS) LC(KP_MINUS)>;
         };
         neo2_layer {
 
@@ -68,7 +68,7 @@
                      &kp LCTRL  &kp LALT  &mo NEO3 &kp LSHIFT &mo NEO2  &kp RET  &kp SPACE &mt BSPC EQUAL &kp DEL  &kp RGUI
             >;
 
-            sensor-bindings = <&inc_dec_kp C_VOL_DN C_VOL_UP &inc_dec_kp C_AC_ZOOM_IN C_AC_ZOOM_OUT>;
+            sensor-bindings = <&inc_dec_kp C_VOL_DN C_VOL_UP &inc_dec_kp LC(KP_PLUS) LC(KP_MINUS)>;
         };
 
         neo3_layer {
@@ -81,7 +81,7 @@
                      &kp LCTRL  &kp LALT  &mo NEO3 &kp LSHIFT &mo NEO2  &kp RET  &kp SPACE &mt BSPC EQUAL &kp DEL  &kp RGUI
             >;
 
-            sensor-bindings = <&inc_dec_kp C_VOL_DN C_VOL_UP &inc_dec_kp C_AC_ZOOM_IN C_AC_ZOOM_OUT>;
+            sensor-bindings = <&inc_dec_kp C_VOL_DN C_VOL_UP &inc_dec_kp LC(KP_PLUS) LC(KP_MINUS)>;
         };
     };
 };
@@ -104,7 +104,7 @@
             #binding-cells = <0>;
             bindings
                 = <&macro_press &kp LALT>
-                , <&macro_tap &kp KP_N0 &kp KP_N9 &kp KP_N4>
+                , <&macro_tap &kp KP_N0 &kp KP_N1 &kp KP_N3 &kp KP_N3>
                 , <&macro_release &kp LALT>
                 ;
         };
