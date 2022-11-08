@@ -9,7 +9,6 @@
 #include <dt-bindings/zmk/bt.h>
 #include <dt-bindings/zmk/rgb.h>
 #include <dt-bindings/zmk/ext_power.h>
-#include "keys_neo2.h"
 
 #define NEO1 0
 #define QWERTZ 1
@@ -60,7 +59,7 @@
         neo2_layer {
             bindings = <
 &kp N1        &kp N2 &kp N3    &kp N4    &kp N5         &kp N6                           &kp N7  &kp N8         &kp N9    &kp N0  &trans  &trans
-&trans       &punkte  &kp RS(MINUS)     &kp RA(N8)     &kp RA(N9)          &kp W                            &kp K   &kp H          &kp NEO2_RSAQUO     &kp F    &kp Q    &kp BSPC
+&trans       &punkte  &kp RS(SLASH)     &kp RA(N8)     &kp RA(N9)          &kp CARET                            &kp LS(N1)   &kp NUBS          &kp LS(NUBS)     &kp LS(N0)    &kp LS(N6)    &klf
 &trans  &kp U  &kp I     &kp A     &kp E          &kp O                            &kp S   &kp N          &kp R     &kp T    &kp D &kp Z
 &trans     &kp LBRC  &kp SEMI     &kp SQT     &kp P          &kp Y     &kp C_MUTE  &kp PSCRN   &kp B   &kp M          &kp COMMA &kp DOT  &kp J &trans
                      &kp LCTRL  &kp LALT  &mo NEO3 &kp LSHIFT &mo NEO2  &kp RET  &kp SPACE &mt BSPC EQUAL &kp DEL  &kp RGUI
@@ -109,6 +108,18 @@
                 <&kp LALT>,
                 <&macro_tap>,
                 <&kp KP_N0 &kp KP_N1 &kp KP_N3 &kp KP_N3>,
+                <&macro_release>,
+                <&kp LALT>;
+        };
+        klf: klf {
+            label = "ZM_punkte";
+            compatible = "zmk,behavior-macro";
+            #binding-cells = <0>;
+            bindings =
+                <&macro_press>,
+                <&kp LALT>,
+                <&macro_tap>,
+                <&kp KP_N0 &kp KP_N1 &kp KP_N3 &kp KP_N1>,
                 <&macro_release>,
                 <&kp LALT>;
         };
