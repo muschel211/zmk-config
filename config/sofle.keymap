@@ -58,11 +58,11 @@
 
         neo2_layer {
             bindings = <
-&kp N1        &kp N2 &kp N3    &kp N4    &kp N5         &kp N6                           &kp N7  &kp N8         &kp N9    &kp N0  &trans  &trans
-&trans       &punkte  &kp RS(SLASH)     &kp RA(N8)     &kp RA(N9)          &kp GRAVE                            &kp LS(N1)   &kp NUBS          &kp LS(NUBS)     &kp LS(N0)    &kp LS(N6)    &klf
-&trans  &kp RA(MINUS)  &kp RS(N7)     &kp RA(N7)     &kp RA(N0)          &kp RS(RBKT)                            &kp RS(MINUS)   &kp RS(N8)          &kp RS(N9)     &kp SLASH    &kp RS(DOT) &kp RA(Q)
-&trans     &kp NUHS  &kp RS(N4)     &kp RA(NUBS)     &kp RA(RBKT)          &kp RS(EQUAL)     &kp C_MUTE  &kp PSCRN   &kp RBKT   &kp RS(N5)          &kp RS(N2) &kp EQUAL  &kp RS(COMMA) &trans
-                     &kp LCTRL  &kp LALT  &mo NEO3 &kp LSHIFT &mo NEO2  &kp RET  &kp SPACE &mt BSPC EQUAL &kp DEL  &kp RGUI
+ &kp N1         &kp N2         &kp N3        &kp N4        &kp N5         &kp N6                                &kp N7          &kp N8        &kp N9      &kp N0         &trans     &trans
+ &trans        &punkte  &kp RS(SLASH)    &kp RA(N8)    &kp RA(N9)      &kp GRAVE                            &kp LS(N1)        &kp NUBS  &kp LS(NUBS)  &kp LS(N0)     &kp LS(N6)       &klf
+ &trans  &kp RA(MINUS)     &kp RS(N7)    &kp RA(N7)    &kp RA(N0)   &kp RS(RBKT)                         &kp RS(MINUS)      &kp RS(N8)    &kp RS(N9)   &kp SLASH    &kp RS(DOT)  &kp RA(Q)
+ &trans       &kp NUHS     &kp RS(N4)  &kp RA(NUBS)  &kp RA(RBKT)  &kp RS(EQUAL)  &kp C_MUTE  &kp PSCRN       &kp RBKT      &kp RS(N5)    &kp RS(N2)   &kp EQUAL  &kp RS(COMMA)     &trans
+                            &kp LCTRL      &kp LALT         &mo 4     &kp LSHIFT       &mo 3    &kp RET      &kp SPACE  &mt BSPC EQUAL       &kp DEL    &kp RGUI
             >;
 
             sensor-bindings = <&inc_dec_kp C_VOL_DN C_VOL_UP &inc_dec_kp LC(KP_PLUS) LC(KP_MINUS)>;
@@ -70,11 +70,11 @@
 
         neo3_layer {
             bindings = <
-  &kp F1    &kp F2     &kp F3    &kp F4  &kp F5      &kp F6                            &kp F7          &kp F8     &kp F9   &kp F10  &kp F11   &kp F12
- &kp ESC     &kp X      &kp V     &kp L   &kp C       &kp W                             &kp K           &kp H      &kp G     &kp F    &kp Q  &kp BSPC
- &kp TAB     &kp U      &kp I     &kp A   &kp E       &kp O                             &kp S           &kp N      &kp R     &kp T    &kp D     &kp Z
-  &tog 1  &kp LBRC   &kp SEMI   &kp SQT   &kp P       &kp Y  &kp C_MUTE  &kp PSCRN      &kp B           &kp M  &kp COMMA   &kp DOT    &kp J    &tog 2
-                    &kp LCTRL  &kp LALT   &mo 4  &kp LSHIFT       &mo 3    &kp RET  &kp SPACE  &mt BSPC EQUAL    &kp DEL  &kp RGUI
+  &kp F1    &kp F2     &kp F3    &kp F4     &kp F5      &kp F6                            &kp F7     &kp F8     &kp F9    &kp F10       &kp F11       &kp F12
+ &kp ESC     &kp X      &kp V    &kp UP      &kp C       &kp W                             &kp K  &kp KP_N7  &kp KP_N8  &kp KP_N9   &kp KP_PLUS  &kp KP_MINUS
+ &kp TAB     &kp U   &kp LEFT  &kp DOWN  &kp RIGHT       &kp O                             &kp S  &kp KP_N4  &kp KP_N5  &kp KP_N6  &kp KP_COMMA    &kp KP_DOT
+  &tog 1  &kp LBRC   &kp SEMI   &kp SQT      &kp P       &kp Y  &kp C_MUTE  &kp PSCRN      &kp B  &kp KP_N1  &kp KP_N2  &kp KP_N3         &kp J        &tog 2
+                    &kp LCTRL  &kp LALT      &mo 4  &kp LSHIFT       &mo 3    &kp RET  &kp SPACE  &kp KP_N0    &kp DEL   &kp RGUI
             >;
 
             sensor-bindings = <&inc_dec_kp C_VOL_DN C_VOL_UP &inc_dec_kp LC(KP_PLUS) LC(KP_MINUS)>;
