@@ -70,11 +70,11 @@
 
         neo3_layer {
             bindings = <
-  &kp F1    &kp F2     &kp F3    &kp F4     &kp F5      &kp F6                            &kp F7     &kp F8     &kp F9    &kp F10       &kp F11       &kp F12
- &kp ESC     &kp X      &kp V    &kp UP      &kp C       &kp W                             &kp K  &kp KP_N7  &kp KP_N8  &kp KP_N9   &kp KP_PLUS  &kp KP_MINUS
- &kp TAB     &kp U   &kp LEFT  &kp DOWN  &kp RIGHT       &kp O                             &kp S  &kp KP_N4  &kp KP_N5  &kp KP_N6  &kp KP_COMMA    &kp KP_DOT
-  &tog 1  &kp LBRC   &kp SEMI   &kp SQT      &kp P       &kp Y  &kp C_MUTE  &kp PSCRN      &kp B  &kp KP_N1  &kp KP_N2  &kp KP_N3         &kp J        &tog 2
-                    &kp LCTRL  &kp LALT      &mo 4  &kp LSHIFT       &mo 3    &kp RET  &kp SPACE  &kp KP_N0    &kp DEL   &kp RGUI
+  &kp F1     &kp F2     &kp F3    &kp F4     &kp F5      &kp F6                             &kp F7     &kp F8     &kp F9    &kp F10       &kp F11       &kp F12
+ &kp ESC  &kp PG_UP   &kp BSPC    &kp UP    &kp DEL   &kp PG_DN                              &kp K  &kp KP_N7  &kp KP_N8  &kp KP_N9   &kp KP_PLUS  &kp KP_MINUS
+ &kp TAB   &kp HOME   &kp LEFT  &kp DOWN  &kp RIGHT     &kp END                              &kp S  &kp KP_N4  &kp KP_N5  &kp KP_N6  &kp KP_COMMA    &kp KP_DOT
+  &tog 1    &kp ESC    &kp TAB   &kp SQT  &kp ENTER  &kp K_UNDO  &kp C_MUTE  &kp PSCRN  &kp LSHIFT  &kp KP_N1  &kp KP_N2  &kp KP_N3         &kp J        &tog 2
+                     &kp LCTRL  &kp LALT      &mo 4  &kp LSHIFT       &mo 3    &kp RET   &kp SPACE  &kp KP_N0    &kp DEL   &kp RGUI
             >;
 
             sensor-bindings = <&inc_dec_kp C_VOL_DN C_VOL_UP &inc_dec_kp LC(KP_PLUS) LC(KP_MINUS)>;
