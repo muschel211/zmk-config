@@ -29,7 +29,7 @@
                     &kp LCTRL  &kp RALT   &mo 4  &kp LSHIFT       &mo 3    &kp RET  &kp SPACE  &kp BSPC      &kp DEL  &kp RGUI
             >;
 
-            sensor-bindings = <&inc_dec_kp C_VOL_DN C_VOL_UP &inc_dec_kp C_AC_ZOOM_IN C_AC_ZOOM_OUT>;
+            sensor-bindings = <&inc_dec_kp C_VOL_DN C_VOL_UP &inc_dec_kp C_VOL_DN C_VOL_UP>;
         };
 
         qwertz_layer {
@@ -59,7 +59,7 @@
         neo2_layer {
             bindings = <
 &kp N1        &kp N2 &kp N3    &kp N4    &kp N5         &kp N6                           &kp N7  &kp N8         &kp N9    &kp N0  &trans  &trans
-&trans       &punkte  &kp RS(SLASH)     &kp RA(N8)     &kp RA(N9)          &kp CARET                            &kp LS(N1)   &kp NUBS          &kp LS(NUBS)     &kp LS(N0)    &kp LS(N6)    &klf
+&trans       &punkte  &kp RS(SLASH)     &kp RA(N8)     &kp RA(N9)          &kp GRAVE                            &kp LS(N1)   &kp NUBS          &kp LS(NUBS)     &kp LS(N0)    &kp LS(N6)    &klf
 &trans  &kp U  &kp I     &kp A     &kp E          &kp O                            &kp S   &kp N          &kp R     &kp T    &kp D &kp Z
 &trans     &kp LBRC  &kp SEMI     &kp SQT     &kp P          &kp Y     &kp C_MUTE  &kp PSCRN   &kp B   &kp M          &kp COMMA &kp DOT  &kp J &trans
                      &kp LCTRL  &kp LALT  &mo NEO3 &kp LSHIFT &mo NEO2  &kp RET  &kp SPACE &mt BSPC EQUAL &kp DEL  &kp RGUI
@@ -112,7 +112,7 @@
                 <&kp LALT>;
         };
         klf: klf {
-            label = "ZM_punkte";
+            label = "ZM_klf";
             compatible = "zmk,behavior-macro";
             #binding-cells = <0>;
             bindings =
