@@ -30,7 +30,7 @@
                     &kp LCTRL  &kp RALT   &mo 4  &kp LSHIFT       &mo 3    &kp RET  &kp SPACE  &kp BSPC      &kp DEL  &kp RGUI
             >;
 
-            sensor-bindings = <&inc_dec_kp C_VOL_DN C_VOL_UP &inc_dec_kp LCTRL(KP_PLUS) LCTRL(KP_MINUS)>;
+            sensor-bindings = <&inc_dec_kp C_VOL_DN C_VOL_UP &inc_dec_kp C_AC_ZOOM_IN C_AC_ZOOM_OUT>;
         };
 
         qwertz_layer {
