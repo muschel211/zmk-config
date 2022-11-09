@@ -29,7 +29,8 @@
                     &kp LCTRL  &kp RALT   &mo 4  &kp LSHIFT       &mo 3    &kp RET  &kp SPACE  &kp BSPC      &kp DEL  &kp RGUI
             >;
 
-            sensor-bindings = <&inc_dec_kp C_VOL_DN C_VOL_UP &inc_dec_kp C_VOL_DN C_VOL_UP>;
+            sensor-bindings = <&inc_dec_kp C_VOL_DN C_VOL_UP &inc_dec_kp LC(KP_PLUS) LC(KP_MINUS)>;
+            sensor-bindings = <&inc_dec_kp C_VOL_DN C_VOL_UP &inc_dec_kp LC(KP_PLUS) LC(KP_MINUS)>;
         };
 
         qwertz_layer {
@@ -41,7 +42,8 @@
                   &kp LCTRL  &kp LALT  &kp RALT  &kp LSHIFT    &kp CAPS    &kp RET  &kp SPACE  &kp BSPC    &kp DEL  &kp RGUI
             >;
 
-            sensor-bindings = <&inc_dec_kp C_AC_ZOOM_IN C_AC_ZOOM_OUT &inc_dec_kp C_AC_ZOOM_IN C_AC_ZOOM_OUT>;
+            sensor-bindings = <&inc_dec_kp C_VOL_DN C_VOL_UP &inc_dec_kp LC(KP_PLUS) LC(KP_MINUS)>;
+            sensor-bindings = <&inc_dec_kp C_VOL_DN C_VOL_UP &inc_dec_kp LC(KP_PLUS) LC(KP_MINUS)>;
         };
 
         config_layer {
@@ -53,6 +55,7 @@
                                          &trans           &trans           &trans           &trans  &bootloader  &bootloader  &ext_power EP_TOG      &trans    &trans      &trans
             >;
 
+            sensor-bindings = <&inc_dec_kp C_VOL_DN C_VOL_UP &inc_dec_kp LC(KP_PLUS) LC(KP_MINUS)>;
             sensor-bindings = <&inc_dec_kp C_VOL_DN C_VOL_UP &inc_dec_kp LC(KP_PLUS) LC(KP_MINUS)>;
         };
 
@@ -66,6 +69,7 @@
             >;
 
             sensor-bindings = <&inc_dec_kp C_VOL_DN C_VOL_UP &inc_dec_kp LC(KP_PLUS) LC(KP_MINUS)>;
+            sensor-bindings = <&inc_dec_kp C_VOL_DN C_VOL_UP &inc_dec_kp LC(KP_PLUS) LC(KP_MINUS)>;
         };
 
         neo3_layer {
@@ -77,6 +81,7 @@
                      &kp LCTRL  &kp LALT      &mo 4  &kp LSHIFT       &mo 3    &kp RET   &kp SPACE  &kp KP_N0    &kp DEL       &kp RGUI
             >;
 
+            sensor-bindings = <&inc_dec_kp C_VOL_DN C_VOL_UP &inc_dec_kp LC(KP_PLUS) LC(KP_MINUS)>;
             sensor-bindings = <&inc_dec_kp C_VOL_DN C_VOL_UP &inc_dec_kp LC(KP_PLUS) LC(KP_MINUS)>;
         };
     };
