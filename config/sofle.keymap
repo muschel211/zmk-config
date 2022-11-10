@@ -123,5 +123,14 @@
                 <&macro_release>,
                 <&kp LALT>;
         };
+        snip: snip {
+            label = "ZM_snip";
+            compatible = "zmk,behavior-macro";
+            #binding-cells = <0>;
+            bindings =
+              <&macro_press &kp LSHFT &kp LGUI >
+			, <&macro_tap &kp S>
+			, <&macro_release &kp LSHFT &kp LGUI>;
+        };
     };
 };
