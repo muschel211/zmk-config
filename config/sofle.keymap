@@ -73,7 +73,7 @@
  &kp ESC  &kp PG_UP   &kp BSPC    &kp UP    &kp DEL   &kp PG_DN                              &kp K  &kp KP_N7  &kp KP_N8      &kp KP_N9      &kp KP_PLUS  &kp KP_MINUS
  &kp TAB   &kp HOME   &kp LEFT  &kp DOWN  &kp RIGHT     &kp END                              &kp S  &kp KP_N4  &kp KP_N5      &kp KP_N6     &kp KP_COMMA    &kp KP_DOT
   &tog 1    &kp ESC    &kp TAB   &kp SQT  &kp ENTER  &kp K_UNDO  &kp C_MUTE  &snip  &kp LSHIFT  &kp KP_N1  &kp KP_N2      &kp KP_N3            &kp J        &tog 2
-                     &kp LCTRL  &kp LALT      &mo 4  &kp LSHIFT       &mo 3    &kp RET   &kp SPACE  &kp KP_N0    &kp DEL       &kp RGUI
+                     &kp LCTRL  &kp LALT      &mo 4  &kp LSHIFT       &mo 3    &kp RET   &kp KP_N0  &kp BSPC    &kp DEL       &kp RGUI
             >;
 
             sensor-bindings = <&inc_dec_kp LC(KP_MINUS) LC(KP_PLUS)  &inc_dec_kp LC(KP_MINUS) LC(KP_PLUS)>;
