@@ -29,7 +29,7 @@
                     &kp LCTRL  &kp RALT   &mo 4  &kp LSHIFT       &mo 3    &kp RET  &kp SPACE  &kp BSPC      &kp DEL  &kp RGUI
             >;
 
-            sensor-bindings = <&inc_dec_kp LC(KP_MINUS) LC(KP_PLUS)  &inc_dec_kp LC(KP_MINUS) LC(KP_PLUS)>;
+            sensor-bindings = <&inc_dec_kp C_VOL_DN C_VOL_UP  &inc_dec_kp LC(KP_MINUS) LC(KP_PLUS)>;
         };
 
         qwertz_layer {
@@ -41,7 +41,7 @@
                   &kp LCTRL  &kp LALT  &kp RALT  &kp LSHIFT    &kp CAPS    &kp RET  &kp SPACE  &kp BSPC    &kp DEL  &kp RGUI
             >;
 
-            sensor-bindings = <&inc_dec_kp LC(KP_MINUS) LC(KP_PLUS)  &inc_dec_kp LC(KP_MINUS) LC(KP_PLUS)>;        };
+            sensor-bindings = <&inc_dec_kp C_VOL_DN C_VOL_UP  &inc_dec_kp LC(KP_MINUS) LC(KP_PLUS)>;
 
         config_layer {
             bindings = <
@@ -52,7 +52,7 @@
                                          &trans           &trans           &trans           &trans  &bootloader  &bootloader  &ext_power EP_TOG      &trans    &trans      &trans
             >;
 
-            sensor-bindings = <&inc_dec_kp LC(KP_MINUS) LC(KP_PLUS)  &inc_dec_kp LC(KP_MINUS) LC(KP_PLUS)>;
+            sensor-bindings = <&inc_dec_kp C_VOL_DN C_VOL_UP  &inc_dec_kp LC(KP_MINUS) LC(KP_PLUS)>;
         };
 
         neo2_layer {
@@ -64,7 +64,7 @@
                             &kp LCTRL      &kp LALT         &mo 4     &kp LSHIFT       &mo 3    &kp RET      &kp SPACE  &mt BSPC EQUAL       &kp DEL    &kp RGUI
             >;
 
-            sensor-bindings = <&inc_dec_kp LC(KP_MINUS) LC(KP_PLUS)  &inc_dec_kp LC(KP_MINUS) LC(KP_PLUS)>;
+            sensor-bindings = <&inc_dec_kp C_VOL_DN C_VOL_UP  &inc_dec_kp LC(KP_MINUS) LC(KP_PLUS)>;
         };
 
         neo3_layer {
@@ -76,7 +76,7 @@
                      &kp LCTRL  &kp LALT      &mo 4  &kp LSHIFT       &mo 3    &kp RET   &kp KP_N0  &kp BSPC    &kp DEL       &kp RGUI
             >;
 
-            sensor-bindings = <&inc_dec_kp LC(KP_MINUS) LC(KP_PLUS)  &inc_dec_kp LC(KP_MINUS) LC(KP_PLUS)>;
+            sensor-bindings = <&inc_dec_kp C_VOL_DN C_VOL_UP  &inc_dec_kp LC(KP_MINUS) LC(KP_PLUS)>;
         };
     };
 };
