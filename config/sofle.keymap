@@ -26,7 +26,7 @@
  &kp ESC     &kp X      &kp V     &kp L   &kp C       &kp W                             &kp K     &kp H        &kp G     &kp F    &kp Q  &kp MINUS
  &kp TAB     &kp U      &kp I     &kp A   &kp E       &kp O                             &kp S     &kp N        &kp R     &kp T    &kp D      &kp Z
   &tog 1  &kp LBKT   &kp SEMI   &kp SQT   &kp P       &kp Y  &kp C_MUTE    &snip      &kp B     &kp M  &commaminus   &kp DOT    &kp J     &tog 2
-                    &kp LCTRL  &kp RALT   &mo 4  &kp LSHIFT       &mo 3    &kp RET  &kp SPACE  &kp BSPC      &kp DEL  &kp RGUI
+                    &kp LCTRL  &kp LALT   &mo 4  &kp LSHIFT       &mo 3    &kp RET  &kp SPACE  &kp BSPC      &kp DEL  &kp RGUI
             >;
 
             sensor-bindings = <&inc_dec_kp C_AC_ZOOM_IN C_AC_ZOOM_OUT  &inc_dec_kp LC(KP_MINUS) LC(KP_PLUS)>;
